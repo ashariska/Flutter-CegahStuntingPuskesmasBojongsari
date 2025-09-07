@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Cegah Stunting Puskesmas Bojongsari',
+      title: 'Cegah Stunting Puskesmas Bojongsari ',
       initialRoute: '/',
       routes: {'/': (context) => LoginPage(), '/home': (context) => HomePage()},
     );
