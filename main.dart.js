@@ -119093,7 +119093,7 @@ A.akh.prototype={
 $1(a){return A.k(a.a+1)+". "+a.b},
 $S:682}
 A.VG.prototype={
-N(a){return new A.H4(A.V(["/",new A.arr(),"/home",new A.ars()],t.N,t.y_),"/","Cegah Stunting",!1,null)}}
+N(a){return new A.H4(A.V(["/",new A.arr(),"/home",new A.ars()],t.N,t.y_),"/","Cegah Stunting Puskesmas Bojongsari",!1,null)}}
 A.arr.prototype={
 $1(a){return new A.ux(null)},
 $S:683}
