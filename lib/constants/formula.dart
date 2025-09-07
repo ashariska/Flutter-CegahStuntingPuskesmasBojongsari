@@ -310,7 +310,7 @@ class Formula {
 
       case "siap_olah_af":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!AF$rowNumber="Otoriter";0;if('Form data setengah mateng'!AF$rowNumber="Demokratis";1;if('Form data setengah mateng'!AF$rowNumber="Permisif";2;"Data tidak ada")))
+          =if('Form data setengah mateng'!AF$rowNumber="Otoriter";0;if('Form data setengah mateng'!AF$rowNumber="Permisif";1;if('Form data setengah mateng'!AF$rowNumber="Demokratis";2;"Data tidak ada")))
         ''');
         break;
 
