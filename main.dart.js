@@ -33472,7 +33472,7 @@ case"siap_olah_ae":s=""+b
 r=A.cf("          =if('Form data setengah mateng'!AE"+s+"=\"Tidak ada\";0;if('Form data setengah mateng'!AE"+s+"=\"Kadang ada\";1;if('Form data setengah mateng'!AE"+s+'="Selalu mendukung";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_af":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!AF"+s+"=\"Otoriter\";0;if('Form data setengah mateng'!AF"+s+"=\"Demokratis\";1;if('Form data setengah mateng'!AF"+s+'="Permisif";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form data setengah mateng'!AF"+s+"=\"Otoriter\";0;if('Form data setengah mateng'!AF"+s+"=\"Permisif\";1;if('Form data setengah mateng'!AF"+s+'="Demokratis";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_ah":s=""+b
 r=A.cf("          =IF(COUNTIF(E"+s+":AF"+s+';"Data tidak ada")>0;"Data tidak terpakai";"OK")\n        ')
