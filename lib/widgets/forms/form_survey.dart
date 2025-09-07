@@ -172,8 +172,8 @@ class FormSurvey extends StatelessWidget {
           formControlName: 'pola_asuh',
           options: [
             {'value': 'Otoriter', 'label': 'Otoriter'},
-            {'value': 'Demokratis', 'label': 'Demokratis'},
             {'value': 'Permisif', 'label': 'Permisif'},
+            {'value': 'Demokratis', 'label': 'Demokratis'},
           ],
         ),
       ],
