@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:stunting_web/constants/colors.dart';
 import 'package:stunting_web/constants/config.dart';
+import 'package:stunting_web/constants/dialog_item.dart';
 import 'package:stunting_web/constants/gsheet_helper.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
@@ -82,6 +83,7 @@ class _HasilSurveyState extends State<HasilSurvey> {
             final value = e.value.toString();
 
             final isHighlight = [
+              "is_missing_data",
               "indikasi_awal",
               "probabilitas_stunting",
               "probabilitas_normal",
@@ -149,6 +151,20 @@ class _HasilSurveyState extends State<HasilSurvey> {
     await Printing.layoutPdf(
       onLayout: (format) async => pdf.save(),
       name: "Hasil_Deteksi_Stunting.pdf",
+    );
+  }
+
+  void showInfo() async {
+    await DialogItem.showDialogItem(
+      context: context,
+      title: "Info",
+      message:
+          "Data anak ini tidak dapat digunakan untuk prediksi karena tidak sesuai dengan standar referensi pertumbuhan WHO. Mohon cek kembali data yang diinput atau mengulang survey.",
+      confirmButtonText: "OK",
+      cancelButtonText: "",
+      color: CustomColor.greenMain,
+      icon: Icons.info,
+      justPopup: true,
     );
   }
 
@@ -286,6 +302,7 @@ class _HasilSurveyState extends State<HasilSurvey> {
 
                           // Highlight field khusus
                           final isHighlight = [
+                            "is_missing_data",
                             "indikasi_awal",
                             "probabilitas_stunting",
                             "probabilitas_normal",
@@ -322,16 +339,38 @@ class _HasilSurveyState extends State<HasilSurvey> {
                                           : Colors.transparent,
                                       borderRadius: BorderRadius.circular(6),
                                     ),
-                                    child: Text(
-                                      value.isEmpty ? "-" : value,
-                                      style: TextStyle(
-                                        color: isHighlight
-                                            ? CustomColor.bluePrimary
-                                            : Colors.black87,
-                                        fontWeight: isHighlight
-                                            ? FontWeight.bold
-                                            : FontWeight.normal,
-                                      ),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Expanded(
+                                          child: Text(
+                                            value.isEmpty ? "-" : value,
+                                            style: TextStyle(
+                                              color: isHighlight
+                                                  ? CustomColor.bluePrimary
+                                                  : Colors.black87,
+                                              fontWeight: isHighlight
+                                                  ? FontWeight.bold
+                                                  : FontWeight.normal,
+                                            ),
+                                          ),
+                                        ),
+                                        if (value ==
+                                            "Tidak dapat digunakan untuk prediksi")
+                                          IconButton(
+                                            icon: const Icon(
+                                              Icons.info_outline,
+                                              size: 18,
+                                              color: Colors.grey,
+                                            ),
+                                            padding: EdgeInsets.zero,
+                                            constraints: const BoxConstraints(),
+                                            onPressed: () async {
+                                              showInfo();
+                                            },
+                                          ),
+                                      ],
                                     ),
                                   ),
                                 ),

@@ -211,13 +211,18 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                       ),
                                       DataCell(
                                         Text(
-                                          item['is_stunting'] == "1"
-                                              ? "Stunting"
-                                              : "Normal",
+                                          item['is_missing_data'] == 'OK'
+                                              ? item['is_stunting'] == "1"
+                                                    ? "Stunting"
+                                                    : "Normal"
+                                              : "Tidak Valid",
                                           style: TextStyle(
-                                            color: item['is_stunting'] == "1"
-                                                ? Colors.red
-                                                : Colors.green,
+                                            color:
+                                                item['is_missing_data'] == 'OK'
+                                                ? item['is_stunting'] == "1"
+                                                      ? Colors.red
+                                                      : Colors.green
+                                                : Colors.blueGrey,
                                             fontWeight: FontWeight.bold,
                                           ),
                                         ),

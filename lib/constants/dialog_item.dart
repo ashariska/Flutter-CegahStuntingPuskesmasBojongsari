@@ -9,6 +9,7 @@ class DialogItem {
     required String cancelButtonText,
     required Color color,
     required IconData icon,
+    bool? justPopup,
   }) async {
     final confirm = await showDialog<bool>(
       context: context,
@@ -61,23 +62,25 @@ class DialogItem {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    TextButton(
-                      onPressed: () => Navigator.of(context).pop(false),
-                      style: TextButton.styleFrom(
-                        backgroundColor: Colors.grey[600],
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 30,
-                          vertical: 10,
+                    if (justPopup == null) ...[
+                      TextButton(
+                        onPressed: () => Navigator.of(context).pop(false),
+                        style: TextButton.styleFrom(
+                          backgroundColor: Colors.grey[600],
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 30,
+                            vertical: 10,
+                          ),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(8),
+                          ),
                         ),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8),
+                        child: Text(
+                          cancelButtonText,
+                          style: TextStyle(color: Colors.white),
                         ),
                       ),
-                      child: Text(
-                        cancelButtonText,
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
+                    ],
                     TextButton(
                       onPressed: () => Navigator.of(context).pop(true),
                       style: TextButton.styleFrom(

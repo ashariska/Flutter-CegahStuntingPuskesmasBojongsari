@@ -5,7 +5,7 @@ final Map<String, String> fieldLabels = {
   "usia": "Usia",
   "berat_badan_terhadap_umur": "Berat Badan Terhadap Umur",
   "tinggi_badan_terhadap_umur": "Tinggi Badan Terhadap Umur",
-  "berat_badan_terhadap_tinggi": "Berat Badan Terhadap Tinggi",
+  "berat_badan_terhadap_tinggi": "Berat Badan Terhadap Tinggi Badan",
   "lingkar_kepala_terhadap_umur": "Lingkar Kepala Terhadap Umur",
   "lingkar_lengan_atas": "Lingkar Lengan Atas",
   "posisi_anak": "Posisi Anak",
@@ -33,8 +33,9 @@ final Map<String, String> fieldLabels = {
   "pola_asuh": "Pola Asuh",
 
   // hasil prediksi / rekomendasi
-  "indikasi_awal":
-      "Indikasi Awal \n(Dasar Klinis Berdasarkan Tinggi Badan Terhadap Umur)",
+  "is_missing_data": "Status Data",
+  "indikasi_awal": """Indikasi Awal
+  (Dasar Klinis Berdasarkan Tinggi Badan Terhadap Umur)""",
   "probabilitas_stunting": "Prediksi Stunting",
   "probabilitas_normal": "Prediksi Normal",
   "indikasi": "Penyebab",
