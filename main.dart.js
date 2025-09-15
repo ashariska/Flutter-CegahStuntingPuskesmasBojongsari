@@ -119572,7 +119572,7 @@ return A.db(s,A.fg(A.a([A.am8("assets/logo.png",100,100),A.c9("Puskesmas Bojongs
 A.Yw.prototype={
 N(a){var s=null,r=A.cc(a,s),q=r==null?s:r.a.a
 if(q==null)q=1200
-return A.db(s,A.fg(A.a([A.cq(A.c9("Kita ditugaskan menurunkan angka Stunting dari 24% ke 14% pada 2024. Untuk bisa menurunkannya pastikan gizi terpenuhi bahkan sejak remaja dan saat ibu hamil, karena kondisi ini paling rawan yang bisa menyebabkan stunting",s,s,s,s,s,s,s,s,A.dQ(s,s,B.aA,s,s,s,s,s,s,s,s,q*0.018,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),B.ha,s,s,s,s),s,q*0.4),A.cq(s,s,q*0.05),A.cq(new A.ee(B.dS,s,s,A.am8("assets/home2.png",s,q*0.5),s),s,q*0.45)],t.D),B.au,B.ai,B.aq,s),B.a0,s,s,s,s,s,s,B.vx,s,s,1/0)}}
+return A.db(s,A.fg(A.a([A.cq(A.c9("Berdasarkan Survei Status Gizi Indonesia (SSGI), prevalensi di Indonesia menurun dari 21,5% pada tahun 2023 menjadi 19,8% pada tahun 2024, namun angka tersebut masih menyisakan beban risiko jangka panjang apabila deteksi dini dan pencegahan tidak menjangkau luas karena upaya intensif masih perlu dibutuhkan untuk mencapai target prevalensi 14,2% pada tahun 2029 sesuai Rencana Pembangunan Jangka Menengah Nasional (RPJMN) (BKPK, 2025)",s,s,s,s,s,s,s,s,A.dQ(s,s,B.aA,s,s,s,s,s,s,s,s,q*0.018,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),B.ha,s,s,s,s),s,q*0.4),A.cq(s,s,q*0.05),A.cq(new A.ee(B.dS,s,s,A.am8("assets/home2.png",s,q*0.5),s),s,q*0.45)],t.D),B.au,B.ai,B.aq,s),B.a0,s,s,s,s,s,s,B.vx,s,s,1/0)}}
 A.Yx.prototype={
 N(a){return A.o5(new A.awZ())}}
 A.awZ.prototype={
