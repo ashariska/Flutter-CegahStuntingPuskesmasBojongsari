@@ -33392,88 +33392,88 @@ case"setengah_mateng_i":s=""+b
 r=A.cf("          =IF('Form Responses 1'!H"+s+'="";"";IF(\'Form Responses 1\'!H'+s+"<11,5;\"Gizi buruk\";IF('Form Responses 1'!H"+s+'<=12,5;"Rawan";"Normal")))\n        ')
 break
 case"siap_olah_e":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!E"+s+"=\"Di bawah normal\";0;if('Form data setengah mateng'!E"+s+"=\"Normal\";1;if('Form data setengah mateng'!E"+s+'="Di atas normal";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!E"+s+"=\"Di bawah normal\";0;if('Form Extract Data'!E"+s+"=\"Normal\";1;if('Form Extract Data'!E"+s+'="Di atas normal";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_f":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!F"+s+"=\"Pendek\";0;if('Form data setengah mateng'!F"+s+"=\"Normal\";1;if('Form data setengah mateng'!F"+s+'="Tinggi";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!F"+s+"=\"Pendek\";0;if('Form Extract Data'!F"+s+"=\"Normal\";1;if('Form Extract Data'!F"+s+'="Tinggi";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_g":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!G"+s+"=\"Kurus\";0;if('Form data setengah mateng'!G"+s+"=\"Normal\";1;if('Form data setengah mateng'!G"+s+'="Gemuk";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!G"+s+"=\"Kurus\";0;if('Form Extract Data'!G"+s+"=\"Normal\";1;if('Form Extract Data'!G"+s+'="Gemuk";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_h":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!H"+s+"=\"Di bawah rata-rata\";0;if('Form data setengah mateng'!H"+s+"=\"Normal\";1;if('Form data setengah mateng'!H"+s+'="Di atas rata-rata";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!H"+s+"=\"Di bawah rata-rata\";0;if('Form Extract Data'!H"+s+"=\"Normal\";1;if('Form Extract Data'!H"+s+'="Di atas rata-rata";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_i":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!I"+s+"=\"Gizi buruk\";0;if('Form data setengah mateng'!I"+s+"=\"Rawan\";1;if('Form data setengah mateng'!I"+s+'="Normal";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!I"+s+"=\"Gizi buruk\";0;if('Form Extract Data'!I"+s+"=\"Rawan\";1;if('Form Extract Data'!I"+s+'="Normal";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_j":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!J"+s+"=\"Anak pertama\";0;if('Form data setengah mateng'!J"+s+"=\"Anak kedua\";1;if('Form data setengah mateng'!J"+s+'="Anak ketiga atau lebih";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!J"+s+"=\"Anak pertama\";0;if('Form Extract Data'!J"+s+"=\"Anak kedua\";1;if('Form Extract Data'!J"+s+'="Anak ketiga atau lebih";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_k":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!K"+s+"=\"< 20 tahun\";0;if('Form data setengah mateng'!K"+s+"=\"20 - 35 tahun\";1;if('Form data setengah mateng'!K"+s+'="> 35 tahun";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!K"+s+"=\"< 20 tahun\";0;if('Form Extract Data'!K"+s+"=\"20 - 35 tahun\";1;if('Form Extract Data'!K"+s+'="> 35 tahun";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_l":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!L"+s+"=\"SD / SMP\";0;if('Form data setengah mateng'!L"+s+"=\"SMA\";1;if('Form data setengah mateng'!L"+s+'="Perguruan Tinggi";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!L"+s+"=\"SD / SMP\";0;if('Form Extract Data'!L"+s+"=\"SMA\";1;if('Form Extract Data'!L"+s+'="Perguruan Tinggi";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_m":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!M"+s+"=\"< Rp 1 juta\";0;if('Form data setengah mateng'!M"+s+"=\"Rp 1 - 3 juta\";1;if('Form data setengah mateng'!M"+s+'="> Rp 3 juta";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!M"+s+"=\"< Rp 1 juta\";0;if('Form Extract Data'!M"+s+"=\"Rp 1 - 3 juta\";1;if('Form Extract Data'!M"+s+'="> Rp 3 juta";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_n":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!N"+s+"=\"< 4 kali\";0;if('Form data setengah mateng'!N"+s+"=\"4 - 7 kali\";1;if('Form data setengah mateng'!N"+s+'="\u2265 8 kali";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!N"+s+"=\"< 4 kali\";0;if('Form Extract Data'!N"+s+"=\"4 - 7 kali\";1;if('Form Extract Data'!N"+s+'="\u2265 8 kali";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_o":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!O"+s+"=\"Kurang\";0;if('Form data setengah mateng'!O"+s+"=\"Cukup\";1;if('Form data setengah mateng'!O"+s+'="Sangat cukup";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!O"+s+"=\"Kurang\";0;if('Form Extract Data'!O"+s+"=\"Cukup\";1;if('Form Extract Data'!O"+s+'="Sangat cukup";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_p":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!P"+s+"=\"Sering terpapar\";0;if('Form data setengah mateng'!P"+s+"=\"Kadang\";1;if('Form data setengah mateng'!P"+s+'="Tidak ada paparan";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!P"+s+"=\"Sering terpapar\";0;if('Form Extract Data'!P"+s+"=\"Kadang\";1;if('Form Extract Data'!P"+s+'="Tidak ada paparan";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_q":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!Q"+s+"=\"Ada penyakit kronis\";0;if('Form data setengah mateng'!Q"+s+"=\"Pernah sakit ringan\";1;if('Form data setengah mateng'!Q"+s+'="Sehat";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!Q"+s+"=\"Ada penyakit kronis\";0;if('Form Extract Data'!Q"+s+"=\"Pernah sakit ringan\";1;if('Form Extract Data'!Q"+s+'="Sehat";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_r":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!R"+s+"=\"Sangat stres\";0;if('Form data setengah mateng'!R"+s+"=\"Kadang stres\";1;if('Form data setengah mateng'!R"+s+'="Tidak stres";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!R"+s+"=\"Sangat stres\";0;if('Form Extract Data'!R"+s+"=\"Kadang stres\";1;if('Form Extract Data'!R"+s+'="Tidak stres";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_s":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!S"+s+"=\"Dukun bayi\";0;if('Form data setengah mateng'!S"+s+"=\"Bidan\";1;if('Form data setengah mateng'!S"+s+'="Dokter RS";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!S"+s+"=\"Dukun bayi\";0;if('Form Extract Data'!S"+s+"=\"Bidan\";1;if('Form Extract Data'!S"+s+'="Dokter RS";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_t":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!T"+s+"=\"Tidak punya jaminan\";0;if('Form data setengah mateng'!T"+s+"=\"Punya BPJS\";1;if('Form data setengah mateng'!T"+s+'="Punya asuransi lain";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!T"+s+"=\"Tidak punya jaminan\";0;if('Form Extract Data'!T"+s+"=\"Punya BPJS\";1;if('Form Extract Data'!T"+s+'="Punya asuransi lain";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_u":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!U"+s+"=\"Tidak sama sekali\";0;if('Form data setengah mateng'!U"+s+"=\"Sebagian\";1;if('Form data setengah mateng'!U"+s+'="Lengkap 6 bulan";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!U"+s+"=\"Tidak sama sekali\";0;if('Form Extract Data'!U"+s+"=\"Sebagian\";1;if('Form Extract Data'!U"+s+'="Lengkap 6 bulan";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_v":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!V"+s+"=\"< 6 bulan\";0;if('Form data setengah mateng'!V"+s+"=\"6 bulan\";1;if('Form data setengah mateng'!V"+s+'="> 6 bulan";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!V"+s+"=\"< 6 bulan\";0;if('Form Extract Data'!V"+s+"=\"6 bulan\";1;if('Form Extract Data'!V"+s+'="> 6 bulan";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_w":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!W"+s+"=\"Instan\";0;if('Form data setengah mateng'!W"+s+"=\"Campuran\";1;if('Form data setengah mateng'!W"+s+'="Buatan sendiri";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!W"+s+"=\"Instan\";0;if('Form Extract Data'!W"+s+"=\"Campuran\";1;if('Form Extract Data'!W"+s+'="Buatan sendiri";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_x":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!X"+s+"=\"< 3 kali / hari\";0;if('Form data setengah mateng'!X"+s+"=\"3 - 5 kali / hari\";1;if('Form data setengah mateng'!X"+s+'="> 5 kali / hari";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!X"+s+"=\"< 3 kali / hari\";0;if('Form Extract Data'!X"+s+"=\"3 - 5 kali / hari\";1;if('Form Extract Data'!X"+s+'="> 5 kali / hari";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_y":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!Y"+s+"=\"Tidak memperhatikan gizi\";0;if('Form data setengah mateng'!Y"+s+"=\"Kadang seimbang\";1;if('Form data setengah mateng'!Y"+s+'="Sangat seimbang";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!Y"+s+"=\"Tidak memperhatikan gizi\";0;if('Form Extract Data'!Y"+s+"=\"Kadang seimbang\";1;if('Form Extract Data'!Y"+s+'="Sangat seimbang";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_z":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!Z"+s+"=\"Tidak minum suplemen\";0;if('Form data setengah mateng'!Z"+s+"=\"Kadang minum\";1;if('Form data setengah mateng'!Z"+s+'="Rutin minum";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!Z"+s+"=\"Tidak minum suplemen\";0;if('Form Extract Data'!Z"+s+"=\"Kadang minum\";1;if('Form Extract Data'!Z"+s+'="Rutin minum";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_aa":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!AA"+s+"=\"Tidak imunisasi\";0;if('Form data setengah mateng'!AA"+s+"=\"Imunisasi sebagian\";1;if('Form data setengah mateng'!AA"+s+'="Imunisasi lengkap";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!AA"+s+"=\"Tidak imunisasi\";0;if('Form Extract Data'!AA"+s+"=\"Imunisasi sebagian\";1;if('Form Extract Data'!AA"+s+'="Imunisasi lengkap";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_ab":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!AB"+s+"=\"Buruk\";0;if('Form data setengah mateng'!AB"+s+"=\"Sedang\";1;if('Form data setengah mateng'!AB"+s+'="Baik";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!AB"+s+"=\"Buruk\";0;if('Form Extract Data'!AB"+s+"=\"Sedang\";1;if('Form Extract Data'!AB"+s+'="Baik";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_ac":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!AC"+s+"=\"Tidak rutin\";0;if('Form data setengah mateng'!AC"+s+"=\"Kadang-kadang\";1;if('Form data setengah mateng'!AC"+s+'="Sangat rutin";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!AC"+s+"=\"Tidak rutin\";0;if('Form Extract Data'!AC"+s+"=\"Kadang-kadang\";1;if('Form Extract Data'!AC"+s+'="Sangat rutin";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_ad":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!AD"+s+"=\"Tidak pernah\";0;if('Form data setengah mateng'!AD"+s+"=\"Kadang\";1;if('Form data setengah mateng'!AD"+s+'="Rutin";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!AD"+s+"=\"Tidak pernah\";0;if('Form Extract Data'!AD"+s+"=\"Kadang\";1;if('Form Extract Data'!AD"+s+'="Rutin";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_ae":s=""+b
-r=A.cf("          =if('Form data setengah mateng'!AE"+s+"=\"Tidak ada\";0;if('Form data setengah mateng'!AE"+s+"=\"Kadang ada\";1;if('Form data setengah mateng'!AE"+s+'="Selalu mendukung";2;"Data tidak ada")))\n        ')
+r=A.cf("          =if('Form Extract Data'!AE"+s+"=\"Tidak ada\";0;if('Form Extract Data'!AE"+s+"=\"Kadang ada\";1;if('Form Extract Data'!AE"+s+'="Selalu mendukung";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_af":s=""+b
-r=A.cf("        =if('Form data setengah mateng'!AF"+s+"=\"Otoriter\";0;if('Form data setengah mateng'!AF"+s+"=\"Permisif\";1;if('Form data setengah mateng'!AF"+s+'="Demokratis";2;"Data tidak ada")))\n        ')
+r=A.cf("        =if('Form Extract Data'!AF"+s+"=\"Otoriter\";0;if('Form Extract Data'!AF"+s+"=\"Permisif\";1;if('Form Extract Data'!AF"+s+'="Demokratis";2;"Data tidak ada")))\n        ')
 break
 case"siap_olah_ah":s=""+b
 r=A.cf("          =IF(COUNTIF(E"+s+":AF"+s+';"Data tidak ada")>0;"Data tidak terpakai";"OK")\n        ')
@@ -36488,7 +36488,7 @@ akA(a,b){return A.bas(a,b)},
 bas(a0,a1){var s=0,r=A.Q(t.b5),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$akA=A.M(function(a2,a3){if(a2===1)return A.N(a3,r)
 while(true)switch(s){case 0:s=3
-return A.T(A.PW(A.h1(u.P+a1+"/values/'Form data siap olah (naive bayes)'!A2:CT?key="+a0)),$async$akA)
+return A.T(A.PW(A.h1(u.P+a1+"/values/'Form Perhitungan Naive Bayes'!A2:CT?key="+a0)),$async$akA)
 case 3:a=a3
 if(a.b===200){p=t.g.a(J.m(B.bk.nR(A.PV(A.PQ(a.e)).cJ(a.w),null),"values"))
 if(p==null)p=[]
@@ -36514,7 +36514,7 @@ while(true)switch(s){case 0:h=A.h(t.N,t.z)
 g=""+b
 f=u.P+c+"/values/"
 s=3
-return A.T(A.PW(A.h1(f+("'Form data setengah mateng'!A"+g+":AF"+g)+"?key="+a)),$async$yR)
+return A.T(A.PW(A.h1(f+("'Form Extract Data'!A"+g+":AF"+g)+"?key="+a)),$async$yR)
 case 3:e=a0
 if(e.b===200){p=t.g.a(J.m(B.bk.nR(A.PV(A.PQ(e.e)).cJ(e.w),null),"values"))
 o=t.j.a(J.lY(p==null?[]:p))
@@ -36553,18 +36553,18 @@ h.i(0,"kebersihan_diri",J.bi(n.h(o,28)))
 h.i(0,"olahraga",J.bi(n.h(o,29)))
 h.i(0,"dukungan_keluarga",J.bi(n.h(o,30)))
 h.i(0,"pola_asuh",J.bi(n.h(o,31)))}s=4
-return A.T(A.PW(A.h1(f+("'Form data siap olah (naive bayes)'!AG"+g+":AH"+g)+"?key="+a)),$async$yR)
+return A.T(A.PW(A.h1(f+("'Form Perhitungan Naive Bayes'!AG"+g+":AH"+g)+"?key="+a)),$async$yR)
 case 4:l=a0
 if(l.b===200){p=t.g.a(J.m(B.bk.nR(A.PV(A.PQ(l.e)).cJ(l.w),null),"values"))
 h.i(0,"indikasi_awal",J.bi(J.m(t.j.a(J.lY(p==null?[]:p)),0))==="1"?"Stunting":"Normal")}s=5
-return A.T(A.PW(A.h1(f+("'Form data siap olah (naive bayes)'!CQ"+g+":CR"+g)+"?key="+a)),$async$yR)
+return A.T(A.PW(A.h1(f+("'Form Perhitungan Naive Bayes'!CQ"+g+":CR"+g)+"?key="+a)),$async$yR)
 case 5:k=a0
 if(k.b===200){p=t.g.a(J.m(B.bk.nR(A.PV(A.PQ(k.e)).cJ(k.w),null),"values"))
 o=t.j.a(J.lY(p==null?[]:p))
 n=J.aN(o)
 h.i(0,"probabilitas_stunting",J.bi(n.h(o,0))==="Data tidak terpakai"?"-":J.bi(n.h(o,0)))
 h.i(0,"probabilitas_normal",J.bi(n.h(o,1))==="Data tidak terpakai"?"-":J.bi(n.h(o,1)))}s=6
-return A.T(A.PW(A.h1(f+("'Form data siap olah (naive bayes)'!CX"+g+":CY"+g)+"?key="+a)),$async$yR)
+return A.T(A.PW(A.h1(f+("'Form Perhitungan Naive Bayes'!CX"+g+":CY"+g)+"?key="+a)),$async$yR)
 case 6:j=a0
 if(j.b===200){i=B.bk.nR(A.PV(A.PQ(j.e)).cJ(j.w),null)
 if(i.n("values")){p=t.g.a(J.m(i,"values"))
@@ -36660,9 +36660,9 @@ b6.toString
 n=t.s
 m=t.rj
 s=5
-return A.T(new A.JQ(b9).uE(A.aCw(A.V(["values",A.a([A.a(["='Form Responses 1'!A"+o,"='Form Responses 1'!B"+o,"='Form Responses 1'!C"+o,A.aw("setengah_mateng_d",b6,null),A.aw("setengah_mateng_e",b6,null),A.aw("setengah_mateng_f",b6,null),A.aw("setengah_mateng_g",b6,null),A.aw("setengah_mateng_h",b6,null),A.aw("setengah_mateng_i",b6,null),"='Form Responses 1'!I"+o,"='Form Responses 1'!J"+o,"='Form Responses 1'!K"+o,"='Form Responses 1'!L"+o,"='Form Responses 1'!M"+o,"='Form Responses 1'!N"+o,"='Form Responses 1'!O"+o,"='Form Responses 1'!P"+o,"='Form Responses 1'!Q"+o,"='Form Responses 1'!R"+o,"='Form Responses 1'!S"+o,"='Form Responses 1'!T"+o,"='Form Responses 1'!U"+o,"='Form Responses 1'!V"+o,"='Form Responses 1'!W"+o,"='Form Responses 1'!X"+o,"='Form Responses 1'!Y"+o,"='Form Responses 1'!Z"+o,"='Form Responses 1'!AA"+o,"='Form Responses 1'!AB"+o,"='Form Responses 1'!AC"+o,"='Form Responses 1'!AD"+o,"='Form Responses 1'!AE"+o],n)],m)],p,p)),c0,"Form data setengah mateng","USER_ENTERED"),$async$yS)
+return A.T(new A.JQ(b9).uE(A.aCw(A.V(["values",A.a([A.a(["='Form Responses 1'!A"+o,"='Form Responses 1'!B"+o,"='Form Responses 1'!C"+o,A.aw("setengah_mateng_d",b6,null),A.aw("setengah_mateng_e",b6,null),A.aw("setengah_mateng_f",b6,null),A.aw("setengah_mateng_g",b6,null),A.aw("setengah_mateng_h",b6,null),A.aw("setengah_mateng_i",b6,null),"='Form Responses 1'!I"+o,"='Form Responses 1'!J"+o,"='Form Responses 1'!K"+o,"='Form Responses 1'!L"+o,"='Form Responses 1'!M"+o,"='Form Responses 1'!N"+o,"='Form Responses 1'!O"+o,"='Form Responses 1'!P"+o,"='Form Responses 1'!Q"+o,"='Form Responses 1'!R"+o,"='Form Responses 1'!S"+o,"='Form Responses 1'!T"+o,"='Form Responses 1'!U"+o,"='Form Responses 1'!V"+o,"='Form Responses 1'!W"+o,"='Form Responses 1'!X"+o,"='Form Responses 1'!Y"+o,"='Form Responses 1'!Z"+o,"='Form Responses 1'!AA"+o,"='Form Responses 1'!AB"+o,"='Form Responses 1'!AC"+o,"='Form Responses 1'!AD"+o,"='Form Responses 1'!AE"+o],n)],m)],p,p)),c0,"Form Extract Data","USER_ENTERED"),$async$yS)
 case 5:s=6
-return A.T(new A.JQ(b9).uE(A.aCw(A.V(["values",A.a([A.a(["='Form data setengah mateng'!A"+o,"='Form data setengah mateng'!B"+o,"='Form data setengah mateng'!C"+o,"='Form data setengah mateng'!D"+o,A.aw("siap_olah_e",b6,null),A.aw("siap_olah_f",b6,null),A.aw("siap_olah_g",b6,null),A.aw("siap_olah_h",b6,null),A.aw("siap_olah_i",b6,null),A.aw("siap_olah_j",b6,null),A.aw("siap_olah_k",b6,null),A.aw("siap_olah_l",b6,null),A.aw("siap_olah_m",b6,null),A.aw("siap_olah_n",b6,null),A.aw("siap_olah_o",b6,null),A.aw("siap_olah_p",b6,null),A.aw("siap_olah_q",b6,null),A.aw("siap_olah_r",b6,null),A.aw("siap_olah_s",b6,null),A.aw("siap_olah_t",b6,null),A.aw("siap_olah_u",b6,null),A.aw("siap_olah_v",b6,null),A.aw("siap_olah_w",b6,null),A.aw("siap_olah_x",b6,null),A.aw("siap_olah_y",b6,null),A.aw("siap_olah_z",b6,null),A.aw("siap_olah_aa",b6,null),A.aw("siap_olah_ab",b6,null),A.aw("siap_olah_ac",b6,null),A.aw("siap_olah_ad",b6,null),A.aw("siap_olah_ae",b6,null),A.aw("siap_olah_af",b6,null),"=IF(F"+o+"=0;1;0)",A.aw("siap_olah_ah",b6,null),"","",A.aw("siap_olah_ak_bl",b6,"E"),A.aw("siap_olah_ak_bl",b6,"F"),A.aw("siap_olah_ak_bl",b6,"G"),A.aw("siap_olah_ak_bl",b6,"H"),A.aw("siap_olah_ak_bl",b6,"I"),A.aw("siap_olah_ak_bl",b6,"J"),A.aw("siap_olah_ak_bl",b6,"K"),A.aw("siap_olah_ak_bl",b6,"L"),A.aw("siap_olah_ak_bl",b6,"M"),A.aw("siap_olah_ak_bl",b6,"N"),A.aw("siap_olah_ak_bl",b6,"O"),A.aw("siap_olah_ak_bl",b6,"P"),A.aw("siap_olah_ak_bl",b6,"Q"),A.aw("siap_olah_ak_bl",b6,"R"),A.aw("siap_olah_ak_bl",b6,"S"),A.aw("siap_olah_ak_bl",b6,"T"),A.aw("siap_olah_ak_bl",b6,"U"),A.aw("siap_olah_ak_bl",b6,"V"),A.aw("siap_olah_ak_bl",b6,"W"),A.aw("siap_olah_ak_bl",b6,"X"),A.aw("siap_olah_ak_bl",b6,"Y"),A.aw("siap_olah_ak_bl",b6,"Z"),A.aw("siap_olah_ak_bl",b6,"AA"),A.aw("siap_olah_ak_bl",b6,"AB"),A.aw("siap_olah_ak_bl",b6,"AC"),A.aw("siap_olah_ak_bl",b6,"AD"),A.aw("siap_olah_ak_bl",b6,"AE"),A.aw("siap_olah_ak_bl",b6,"AF"),A.aw("siap_olah_bm_cn",b6,"E"),A.aw("siap_olah_bm_cn",b6,"F"),A.aw("siap_olah_bm_cn",b6,"G"),A.aw("siap_olah_bm_cn",b6,"H"),A.aw("siap_olah_bm_cn",b6,"I"),A.aw("siap_olah_bm_cn",b6,"J"),A.aw("siap_olah_bm_cn",b6,"K"),A.aw("siap_olah_bm_cn",b6,"L"),A.aw("siap_olah_bm_cn",b6,"M"),A.aw("siap_olah_bm_cn",b6,"N"),A.aw("siap_olah_bm_cn",b6,"O"),A.aw("siap_olah_bm_cn",b6,"P"),A.aw("siap_olah_bm_cn",b6,"Q"),A.aw("siap_olah_bm_cn",b6,"R"),A.aw("siap_olah_bm_cn",b6,"S"),A.aw("siap_olah_bm_cn",b6,"T"),A.aw("siap_olah_bm_cn",b6,"U"),A.aw("siap_olah_bm_cn",b6,"V"),A.aw("siap_olah_bm_cn",b6,"W"),A.aw("siap_olah_bm_cn",b6,"X"),A.aw("siap_olah_bm_cn",b6,"Y"),A.aw("siap_olah_bm_cn",b6,"Z"),A.aw("siap_olah_bm_cn",b6,"AA"),A.aw("siap_olah_bm_cn",b6,"AB"),A.aw("siap_olah_bm_cn",b6,"AC"),A.aw("siap_olah_bm_cn",b6,"AD"),A.aw("siap_olah_bm_cn",b6,"AE"),A.aw("siap_olah_bm_cn",b6,"AF"),A.aw("siap_olah_co",b6,null),A.aw("siap_olah_cp",b6,null),A.aw("siap_olah_cq",b6,null),A.aw("siap_olah_cr",b6,null),A.aw("siap_olah_cs",b6,null),A.aw("siap_olah_ct",b6,null),A.aw("siap_olah_cu",b6,null),A.aw("siap_olah_cv",b6,null),A.aw("siap_olah_cw",b6,null),A.aw("siap_olah_cx",b6,null),A.aw("siap_olah_cy",b6,null)],n)],m)],p,p)),c0,"Form data siap olah (naive bayes)","USER_ENTERED"),$async$yS)
+return A.T(new A.JQ(b9).uE(A.aCw(A.V(["values",A.a([A.a(["='Form Extract Data'!A"+o,"='Form Extract Data'!B"+o,"='Form Extract Data'!C"+o,"='Form Extract Data'!D"+o,A.aw("siap_olah_e",b6,null),A.aw("siap_olah_f",b6,null),A.aw("siap_olah_g",b6,null),A.aw("siap_olah_h",b6,null),A.aw("siap_olah_i",b6,null),A.aw("siap_olah_j",b6,null),A.aw("siap_olah_k",b6,null),A.aw("siap_olah_l",b6,null),A.aw("siap_olah_m",b6,null),A.aw("siap_olah_n",b6,null),A.aw("siap_olah_o",b6,null),A.aw("siap_olah_p",b6,null),A.aw("siap_olah_q",b6,null),A.aw("siap_olah_r",b6,null),A.aw("siap_olah_s",b6,null),A.aw("siap_olah_t",b6,null),A.aw("siap_olah_u",b6,null),A.aw("siap_olah_v",b6,null),A.aw("siap_olah_w",b6,null),A.aw("siap_olah_x",b6,null),A.aw("siap_olah_y",b6,null),A.aw("siap_olah_z",b6,null),A.aw("siap_olah_aa",b6,null),A.aw("siap_olah_ab",b6,null),A.aw("siap_olah_ac",b6,null),A.aw("siap_olah_ad",b6,null),A.aw("siap_olah_ae",b6,null),A.aw("siap_olah_af",b6,null),"=IF(F"+o+"=0;1;0)",A.aw("siap_olah_ah",b6,null),"","",A.aw("siap_olah_ak_bl",b6,"E"),A.aw("siap_olah_ak_bl",b6,"F"),A.aw("siap_olah_ak_bl",b6,"G"),A.aw("siap_olah_ak_bl",b6,"H"),A.aw("siap_olah_ak_bl",b6,"I"),A.aw("siap_olah_ak_bl",b6,"J"),A.aw("siap_olah_ak_bl",b6,"K"),A.aw("siap_olah_ak_bl",b6,"L"),A.aw("siap_olah_ak_bl",b6,"M"),A.aw("siap_olah_ak_bl",b6,"N"),A.aw("siap_olah_ak_bl",b6,"O"),A.aw("siap_olah_ak_bl",b6,"P"),A.aw("siap_olah_ak_bl",b6,"Q"),A.aw("siap_olah_ak_bl",b6,"R"),A.aw("siap_olah_ak_bl",b6,"S"),A.aw("siap_olah_ak_bl",b6,"T"),A.aw("siap_olah_ak_bl",b6,"U"),A.aw("siap_olah_ak_bl",b6,"V"),A.aw("siap_olah_ak_bl",b6,"W"),A.aw("siap_olah_ak_bl",b6,"X"),A.aw("siap_olah_ak_bl",b6,"Y"),A.aw("siap_olah_ak_bl",b6,"Z"),A.aw("siap_olah_ak_bl",b6,"AA"),A.aw("siap_olah_ak_bl",b6,"AB"),A.aw("siap_olah_ak_bl",b6,"AC"),A.aw("siap_olah_ak_bl",b6,"AD"),A.aw("siap_olah_ak_bl",b6,"AE"),A.aw("siap_olah_ak_bl",b6,"AF"),A.aw("siap_olah_bm_cn",b6,"E"),A.aw("siap_olah_bm_cn",b6,"F"),A.aw("siap_olah_bm_cn",b6,"G"),A.aw("siap_olah_bm_cn",b6,"H"),A.aw("siap_olah_bm_cn",b6,"I"),A.aw("siap_olah_bm_cn",b6,"J"),A.aw("siap_olah_bm_cn",b6,"K"),A.aw("siap_olah_bm_cn",b6,"L"),A.aw("siap_olah_bm_cn",b6,"M"),A.aw("siap_olah_bm_cn",b6,"N"),A.aw("siap_olah_bm_cn",b6,"O"),A.aw("siap_olah_bm_cn",b6,"P"),A.aw("siap_olah_bm_cn",b6,"Q"),A.aw("siap_olah_bm_cn",b6,"R"),A.aw("siap_olah_bm_cn",b6,"S"),A.aw("siap_olah_bm_cn",b6,"T"),A.aw("siap_olah_bm_cn",b6,"U"),A.aw("siap_olah_bm_cn",b6,"V"),A.aw("siap_olah_bm_cn",b6,"W"),A.aw("siap_olah_bm_cn",b6,"X"),A.aw("siap_olah_bm_cn",b6,"Y"),A.aw("siap_olah_bm_cn",b6,"Z"),A.aw("siap_olah_bm_cn",b6,"AA"),A.aw("siap_olah_bm_cn",b6,"AB"),A.aw("siap_olah_bm_cn",b6,"AC"),A.aw("siap_olah_bm_cn",b6,"AD"),A.aw("siap_olah_bm_cn",b6,"AE"),A.aw("siap_olah_bm_cn",b6,"AF"),A.aw("siap_olah_co",b6,null),A.aw("siap_olah_cp",b6,null),A.aw("siap_olah_cq",b6,null),A.aw("siap_olah_cr",b6,null),A.aw("siap_olah_cs",b6,null),A.aw("siap_olah_ct",b6,null),A.aw("siap_olah_cu",b6,null),A.aw("siap_olah_cv",b6,null),A.aw("siap_olah_cw",b6,null),A.aw("siap_olah_cx",b6,null),A.aw("siap_olah_cy",b6,null)],n)],m)],p,p)),c0,"Form Perhitungan Naive Bayes","USER_ENTERED"),$async$yS)
 case 6:q=b6
 s=1
 break
