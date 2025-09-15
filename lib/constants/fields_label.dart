@@ -35,7 +35,7 @@ final Map<String, String> fieldLabels = {
   // hasil prediksi / rekomendasi
   "is_missing_data": "Status Data",
   "indikasi_awal": """Indikasi Awal
-  (Dasar Klinis Berdasarkan Tinggi Badan Terhadap Umur)""",
+(Dasar Klinis Berdasarkan Tinggi Badan Terhadap Umur)""",
   "probabilitas_stunting": "Prediksi Stunting",
   "probabilitas_normal": "Prediksi Normal",
   "indikasi": "Penyebab",

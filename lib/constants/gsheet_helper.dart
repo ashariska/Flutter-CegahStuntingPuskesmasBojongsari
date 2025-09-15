@@ -37,7 +37,7 @@ class GSheetHelper {
     required String spreadsheetId,
     required String apiKey,
   }) async {
-    final range = "'Form Extract Data'!A2:CT";
+    final range = "'Form Perhitungan Naive Bayes'!A2:CT";
     final url = Uri.parse(
       'https://sheets.googleapis.com/v4/spreadsheets/$spreadsheetId/values/$range?key=$apiKey',
     );
@@ -142,6 +142,9 @@ class GSheetHelper {
 
       final row = rows.first as List<dynamic>;
       data['indikasi_awal'] = row[0].toString() == "1" ? "Stunting" : "Normal";
+      data['is_missing_data'] = row[1].toString() == "OK"
+          ? "Dapat digunakan untuk prediksi"
+          : "Tidak dapat digunakan untuk prediksi";
     }
 
     // Data dari form data siap olah (probabilitas stunting dan normal)
