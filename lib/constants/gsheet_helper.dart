@@ -37,7 +37,7 @@ class GSheetHelper {
     required String spreadsheetId,
     required String apiKey,
   }) async {
-    final range = "'Form Perhitungan Naive Bayes'!A2:CT";
+    final range = "'Form Extract Data'!A2:CT";
     final url = Uri.parse(
       'https://sheets.googleapis.com/v4/spreadsheets/$spreadsheetId/values/$range?key=$apiKey',
     );
