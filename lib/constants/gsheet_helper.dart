@@ -37,7 +37,7 @@ class GSheetHelper {
     required String spreadsheetId,
     required String apiKey,
   }) async {
-    final range = "'Form data siap olah (naive bayes)'!A2:CT";
+    final range = "'Form Perhitungan Naive Bayes'!A2:CT";
     final url = Uri.parse(
       'https://sheets.googleapis.com/v4/spreadsheets/$spreadsheetId/values/$range?key=$apiKey',
     );
@@ -85,7 +85,7 @@ class GSheetHelper {
 
     // Data dari form data setengah mateng
     final rangeSetengahMateng =
-        "'Form data setengah mateng'!A$rowNumber:AF$rowNumber";
+        "'Form Extract Data'!A$rowNumber:AF$rowNumber";
     final urlSetengahMateng = Uri.parse(
       'https://sheets.googleapis.com/v4/spreadsheets/$spreadsheetId/values/$rangeSetengahMateng?key=$apiKey',
     );
@@ -131,7 +131,7 @@ class GSheetHelper {
 
     // Data dari form data siap olah (stunting ground truth)
     final rangeStuntingGroundTruth =
-        "'Form data siap olah (naive bayes)'!AG$rowNumber:AH$rowNumber";
+        "'Form Perhitungan Naive Bayes'!AG$rowNumber:AH$rowNumber";
     final urlStuntingroundTruth = Uri.parse(
       'https://sheets.googleapis.com/v4/spreadsheets/$spreadsheetId/values/$rangeStuntingGroundTruth?key=$apiKey',
     );
@@ -146,7 +146,7 @@ class GSheetHelper {
 
     // Data dari form data siap olah (probabilitas stunting dan normal)
     final rangeProbabilitas =
-        "'Form data siap olah (naive bayes)'!CQ$rowNumber:CR$rowNumber";
+        "'Form Perhitungan Naive Bayes'!CQ$rowNumber:CR$rowNumber";
     final urlProbabilitas = Uri.parse(
       'https://sheets.googleapis.com/v4/spreadsheets/$spreadsheetId/values/$rangeProbabilitas?key=$apiKey',
     );
@@ -166,7 +166,7 @@ class GSheetHelper {
 
     // Data dari form data siap olah (indikasi dan rekomendasi)
     final rangeRekomen =
-        "'Form data siap olah (naive bayes)'!CX$rowNumber:CY$rowNumber";
+        "'Form Perhitungan Naive Bayes'!CX$rowNumber:CY$rowNumber";
     final urlRekomen = Uri.parse(
       'https://sheets.googleapis.com/v4/spreadsheets/$spreadsheetId/values/$rangeRekomen?key=$apiKey',
     );
@@ -249,7 +249,7 @@ class GSheetHelper {
       }
     }
 
-    // insert to Form data setengah mateng
+    // insert to Form Extract Data
     final valuesSetMateng = [
       [
         "='Form Responses 1'!A$rowNumber",
@@ -293,13 +293,13 @@ class GSheetHelper {
       valueInputOption: "USER_ENTERED",
     );
 
-    // insert to Form data siap olah (naive bayes)
+    // insert to Form Perhitungan Naive Bayes
     final valuesSiapOlah = [
       [
-        "='Form data setengah mateng'!A$rowNumber",
-        "='Form data setengah mateng'!B$rowNumber",
-        "='Form data setengah mateng'!C$rowNumber",
-        "='Form data setengah mateng'!D$rowNumber",
+        "='Form Extract Data'!A$rowNumber",
+        "='Form Extract Data'!B$rowNumber",
+        "='Form Extract Data'!C$rowNumber",
+        "='Form Extract Data'!D$rowNumber",
         Formula.getFormula("siap_olah_e", rowNumber),
         Formula.getFormula("siap_olah_f", rowNumber),
         Formula.getFormula("siap_olah_g", rowNumber),

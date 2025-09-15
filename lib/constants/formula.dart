@@ -148,169 +148,169 @@ class Formula {
 
       case "siap_olah_e":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!E$rowNumber="Di bawah normal";0;if('Form data setengah mateng'!E$rowNumber="Normal";1;if('Form data setengah mateng'!E$rowNumber="Di atas normal";2;"Data tidak ada")))
+          =if('Form Extract Data'!E$rowNumber="Di bawah normal";0;if('Form Extract Data'!E$rowNumber="Normal";1;if('Form Extract Data'!E$rowNumber="Di atas normal";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_f":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!F$rowNumber="Pendek";0;if('Form data setengah mateng'!F$rowNumber="Normal";1;if('Form data setengah mateng'!F$rowNumber="Tinggi";2;"Data tidak ada")))
+          =if('Form Extract Data'!F$rowNumber="Pendek";0;if('Form Extract Data'!F$rowNumber="Normal";1;if('Form Extract Data'!F$rowNumber="Tinggi";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_g":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!G$rowNumber="Kurus";0;if('Form data setengah mateng'!G$rowNumber="Normal";1;if('Form data setengah mateng'!G$rowNumber="Gemuk";2;"Data tidak ada")))
+          =if('Form Extract Data'!G$rowNumber="Kurus";0;if('Form Extract Data'!G$rowNumber="Normal";1;if('Form Extract Data'!G$rowNumber="Gemuk";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_h":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!H$rowNumber="Di bawah rata-rata";0;if('Form data setengah mateng'!H$rowNumber="Normal";1;if('Form data setengah mateng'!H$rowNumber="Di atas rata-rata";2;"Data tidak ada")))
+          =if('Form Extract Data'!H$rowNumber="Di bawah rata-rata";0;if('Form Extract Data'!H$rowNumber="Normal";1;if('Form Extract Data'!H$rowNumber="Di atas rata-rata";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_i":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!I$rowNumber="Gizi buruk";0;if('Form data setengah mateng'!I$rowNumber="Rawan";1;if('Form data setengah mateng'!I$rowNumber="Normal";2;"Data tidak ada")))
+          =if('Form Extract Data'!I$rowNumber="Gizi buruk";0;if('Form Extract Data'!I$rowNumber="Rawan";1;if('Form Extract Data'!I$rowNumber="Normal";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_j":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!J$rowNumber="Anak pertama";0;if('Form data setengah mateng'!J$rowNumber="Anak kedua";1;if('Form data setengah mateng'!J$rowNumber="Anak ketiga atau lebih";2;"Data tidak ada")))
+          =if('Form Extract Data'!J$rowNumber="Anak pertama";0;if('Form Extract Data'!J$rowNumber="Anak kedua";1;if('Form Extract Data'!J$rowNumber="Anak ketiga atau lebih";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_k":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!K$rowNumber="< 20 tahun";0;if('Form data setengah mateng'!K$rowNumber="20 - 35 tahun";1;if('Form data setengah mateng'!K$rowNumber="> 35 tahun";2;"Data tidak ada")))
+          =if('Form Extract Data'!K$rowNumber="< 20 tahun";0;if('Form Extract Data'!K$rowNumber="20 - 35 tahun";1;if('Form Extract Data'!K$rowNumber="> 35 tahun";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_l":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!L$rowNumber="SD / SMP";0;if('Form data setengah mateng'!L$rowNumber="SMA";1;if('Form data setengah mateng'!L$rowNumber="Perguruan Tinggi";2;"Data tidak ada")))
+          =if('Form Extract Data'!L$rowNumber="SD / SMP";0;if('Form Extract Data'!L$rowNumber="SMA";1;if('Form Extract Data'!L$rowNumber="Perguruan Tinggi";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_m":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!M$rowNumber="< Rp 1 juta";0;if('Form data setengah mateng'!M$rowNumber="Rp 1 - 3 juta";1;if('Form data setengah mateng'!M$rowNumber="> Rp 3 juta";2;"Data tidak ada")))
+          =if('Form Extract Data'!M$rowNumber="< Rp 1 juta";0;if('Form Extract Data'!M$rowNumber="Rp 1 - 3 juta";1;if('Form Extract Data'!M$rowNumber="> Rp 3 juta";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_n":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!N$rowNumber="< 4 kali";0;if('Form data setengah mateng'!N$rowNumber="4 - 7 kali";1;if('Form data setengah mateng'!N$rowNumber="≥ 8 kali";2;"Data tidak ada")))
+          =if('Form Extract Data'!N$rowNumber="< 4 kali";0;if('Form Extract Data'!N$rowNumber="4 - 7 kali";1;if('Form Extract Data'!N$rowNumber="≥ 8 kali";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_o":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!O$rowNumber="Kurang";0;if('Form data setengah mateng'!O$rowNumber="Cukup";1;if('Form data setengah mateng'!O$rowNumber="Sangat cukup";2;"Data tidak ada")))
+          =if('Form Extract Data'!O$rowNumber="Kurang";0;if('Form Extract Data'!O$rowNumber="Cukup";1;if('Form Extract Data'!O$rowNumber="Sangat cukup";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_p":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!P$rowNumber="Sering terpapar";0;if('Form data setengah mateng'!P$rowNumber="Kadang";1;if('Form data setengah mateng'!P$rowNumber="Tidak ada paparan";2;"Data tidak ada")))
+          =if('Form Extract Data'!P$rowNumber="Sering terpapar";0;if('Form Extract Data'!P$rowNumber="Kadang";1;if('Form Extract Data'!P$rowNumber="Tidak ada paparan";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_q":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!Q$rowNumber="Ada penyakit kronis";0;if('Form data setengah mateng'!Q$rowNumber="Pernah sakit ringan";1;if('Form data setengah mateng'!Q$rowNumber="Sehat";2;"Data tidak ada")))
+          =if('Form Extract Data'!Q$rowNumber="Ada penyakit kronis";0;if('Form Extract Data'!Q$rowNumber="Pernah sakit ringan";1;if('Form Extract Data'!Q$rowNumber="Sehat";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_r":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!R$rowNumber="Sangat stres";0;if('Form data setengah mateng'!R$rowNumber="Kadang stres";1;if('Form data setengah mateng'!R$rowNumber="Tidak stres";2;"Data tidak ada")))
+          =if('Form Extract Data'!R$rowNumber="Sangat stres";0;if('Form Extract Data'!R$rowNumber="Kadang stres";1;if('Form Extract Data'!R$rowNumber="Tidak stres";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_s":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!S$rowNumber="Dukun bayi";0;if('Form data setengah mateng'!S$rowNumber="Bidan";1;if('Form data setengah mateng'!S$rowNumber="Dokter RS";2;"Data tidak ada")))
+          =if('Form Extract Data'!S$rowNumber="Dukun bayi";0;if('Form Extract Data'!S$rowNumber="Bidan";1;if('Form Extract Data'!S$rowNumber="Dokter RS";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_t":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!T$rowNumber="Tidak punya jaminan";0;if('Form data setengah mateng'!T$rowNumber="Punya BPJS";1;if('Form data setengah mateng'!T$rowNumber="Punya asuransi lain";2;"Data tidak ada")))
+          =if('Form Extract Data'!T$rowNumber="Tidak punya jaminan";0;if('Form Extract Data'!T$rowNumber="Punya BPJS";1;if('Form Extract Data'!T$rowNumber="Punya asuransi lain";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_u":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!U$rowNumber="Tidak sama sekali";0;if('Form data setengah mateng'!U$rowNumber="Sebagian";1;if('Form data setengah mateng'!U$rowNumber="Lengkap 6 bulan";2;"Data tidak ada")))
+          =if('Form Extract Data'!U$rowNumber="Tidak sama sekali";0;if('Form Extract Data'!U$rowNumber="Sebagian";1;if('Form Extract Data'!U$rowNumber="Lengkap 6 bulan";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_v":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!V$rowNumber="< 6 bulan";0;if('Form data setengah mateng'!V$rowNumber="6 bulan";1;if('Form data setengah mateng'!V$rowNumber="> 6 bulan";2;"Data tidak ada")))
+          =if('Form Extract Data'!V$rowNumber="< 6 bulan";0;if('Form Extract Data'!V$rowNumber="6 bulan";1;if('Form Extract Data'!V$rowNumber="> 6 bulan";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_w":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!W$rowNumber="Instan";0;if('Form data setengah mateng'!W$rowNumber="Campuran";1;if('Form data setengah mateng'!W$rowNumber="Buatan sendiri";2;"Data tidak ada")))
+          =if('Form Extract Data'!W$rowNumber="Instan";0;if('Form Extract Data'!W$rowNumber="Campuran";1;if('Form Extract Data'!W$rowNumber="Buatan sendiri";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_x":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!X$rowNumber="< 3 kali / hari";0;if('Form data setengah mateng'!X$rowNumber="3 - 5 kali / hari";1;if('Form data setengah mateng'!X$rowNumber="> 5 kali / hari";2;"Data tidak ada")))
+          =if('Form Extract Data'!X$rowNumber="< 3 kali / hari";0;if('Form Extract Data'!X$rowNumber="3 - 5 kali / hari";1;if('Form Extract Data'!X$rowNumber="> 5 kali / hari";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_y":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!Y$rowNumber="Tidak memperhatikan gizi";0;if('Form data setengah mateng'!Y$rowNumber="Kadang seimbang";1;if('Form data setengah mateng'!Y$rowNumber="Sangat seimbang";2;"Data tidak ada")))
+          =if('Form Extract Data'!Y$rowNumber="Tidak memperhatikan gizi";0;if('Form Extract Data'!Y$rowNumber="Kadang seimbang";1;if('Form Extract Data'!Y$rowNumber="Sangat seimbang";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_z":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!Z$rowNumber="Tidak minum suplemen";0;if('Form data setengah mateng'!Z$rowNumber="Kadang minum";1;if('Form data setengah mateng'!Z$rowNumber="Rutin minum";2;"Data tidak ada")))
+          =if('Form Extract Data'!Z$rowNumber="Tidak minum suplemen";0;if('Form Extract Data'!Z$rowNumber="Kadang minum";1;if('Form Extract Data'!Z$rowNumber="Rutin minum";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_aa":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!AA$rowNumber="Tidak imunisasi";0;if('Form data setengah mateng'!AA$rowNumber="Imunisasi sebagian";1;if('Form data setengah mateng'!AA$rowNumber="Imunisasi lengkap";2;"Data tidak ada")))
+          =if('Form Extract Data'!AA$rowNumber="Tidak imunisasi";0;if('Form Extract Data'!AA$rowNumber="Imunisasi sebagian";1;if('Form Extract Data'!AA$rowNumber="Imunisasi lengkap";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_ab":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!AB$rowNumber="Buruk";0;if('Form data setengah mateng'!AB$rowNumber="Sedang";1;if('Form data setengah mateng'!AB$rowNumber="Baik";2;"Data tidak ada")))
+          =if('Form Extract Data'!AB$rowNumber="Buruk";0;if('Form Extract Data'!AB$rowNumber="Sedang";1;if('Form Extract Data'!AB$rowNumber="Baik";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_ac":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!AC$rowNumber="Tidak rutin";0;if('Form data setengah mateng'!AC$rowNumber="Kadang-kadang";1;if('Form data setengah mateng'!AC$rowNumber="Sangat rutin";2;"Data tidak ada")))
+          =if('Form Extract Data'!AC$rowNumber="Tidak rutin";0;if('Form Extract Data'!AC$rowNumber="Kadang-kadang";1;if('Form Extract Data'!AC$rowNumber="Sangat rutin";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_ad":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!AD$rowNumber="Tidak pernah";0;if('Form data setengah mateng'!AD$rowNumber="Kadang";1;if('Form data setengah mateng'!AD$rowNumber="Rutin";2;"Data tidak ada")))
+          =if('Form Extract Data'!AD$rowNumber="Tidak pernah";0;if('Form Extract Data'!AD$rowNumber="Kadang";1;if('Form Extract Data'!AD$rowNumber="Rutin";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_ae":
         formula = cleanFormula('''
-          =if('Form data setengah mateng'!AE$rowNumber="Tidak ada";0;if('Form data setengah mateng'!AE$rowNumber="Kadang ada";1;if('Form data setengah mateng'!AE$rowNumber="Selalu mendukung";2;"Data tidak ada")))
+          =if('Form Extract Data'!AE$rowNumber="Tidak ada";0;if('Form Extract Data'!AE$rowNumber="Kadang ada";1;if('Form Extract Data'!AE$rowNumber="Selalu mendukung";2;"Data tidak ada")))
         ''');
         break;
 
       case "siap_olah_af":
         formula = cleanFormula('''
-        =if('Form data setengah mateng'!AF$rowNumber="Otoriter";0;if('Form data setengah mateng'!AF$rowNumber="Permisif";1;if('Form data setengah mateng'!AF$rowNumber="Demokratis";2;"Data tidak ada")))
+        =if('Form Extract Data'!AF$rowNumber="Otoriter";0;if('Form Extract Data'!AF$rowNumber="Permisif";1;if('Form Extract Data'!AF$rowNumber="Demokratis";2;"Data tidak ada")))
         ''');
         break;
 
