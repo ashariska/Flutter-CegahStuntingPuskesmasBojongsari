@@ -36488,7 +36488,7 @@ akA(a,b){return A.bas(a,b)},
 bas(a0,a1){var s=0,r=A.Q(t.b5),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$akA=A.M(function(a2,a3){if(a2===1)return A.N(a3,r)
 while(true)switch(s){case 0:s=3
-return A.T(A.PW(A.h1(u.P+a1+"/values/'Form Perhitungan Naive Bayes'!A2:CT?key="+a0)),$async$akA)
+return A.T(A.PW(A.h1(u.P+a1+"/values/'Form Extract Data'!A2:CT?key="+a0)),$async$akA)
 case 3:a=a3
 if(a.b===200){p=t.g.a(J.m(B.bk.nR(A.PV(A.PQ(a.e)).cJ(a.w),null),"values"))
 if(p==null)p=[]
