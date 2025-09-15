@@ -80,6 +80,6 @@ class InfoText {
   static const List<String> description = [
     "Kondisi gagal pada proses pertumbuhan dan perkembangan anak balita akibat kekurangan gizi sejak dalam kandungan, yang ditandai dengan tubuh lebih pendek atau kerdil dibandingkan dengan anak seusianya.",
     "Pemerintah berupaya menurunkan angka stunting di Indonesia. Data kementerian kesehatan menunjukkan pravelensi stunting nasional pada tahun 2021 mencapai 24,4%. Angka ini melebihi batas yang ditetapkan WHO (World Health Organization), yakni dibawah 20%",
-    "Kita ditugaskan menurunkan angka Stunting dari 24% ke 14% pada 2024. Untuk bisa menurunkannya pastikan gizi terpenuhi bahkan sejak remaja dan saat ibu hamil, karena kondisi ini paling rawan yang bisa menyebabkan stunting",
+    "Berdasarkan Survei Status Gizi Indonesia (SSGI), prevalensi di Indonesia menurun dari 21,5% pada tahun 2023 menjadi 19,8% pada tahun 2024, namun angka tersebut masih menyisakan beban risiko jangka panjang apabila deteksi dini dan pencegahan tidak menjangkau luas karena upaya intensif masih perlu dibutuhkan untuk mencapai target prevalensi 14,2% pada tahun 2029 sesuai Rencana Pembangunan Jangka Menengah Nasional (RPJMN) (BKPK, 2025)",
   ];
 }
