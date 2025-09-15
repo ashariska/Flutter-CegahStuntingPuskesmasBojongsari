@@ -37,11 +37,11 @@ class Formula {
       case "setengah_mateng_d":
         formula = cleanFormula('''
           =IF(ISBLANK('Form Responses 1'!D$rowNumber); ""; 
-            DATEDIF('Form Responses 1'!D$rowNumber; TODAY(); "Y") & " tahun " & 
-            DATEDIF('Form Responses 1'!D$rowNumber; TODAY(); "YM") & " bulan " & 
-            DATEDIF('Form Responses 1'!D$rowNumber; TODAY(); "MD") & " hari | " & 
-            IF(DATEDIF('Form Responses 1'!D$rowNumber; TODAY(); "m") < 12; "< 12 bulan"; 
-                IF(DATEDIF('Form Responses 1'!D$rowNumber; TODAY(); "m") <= 24; "12 - 24 bulan"; "> 24 bulan")
+            DATEDIF('Form Responses 1'!D$rowNumber; INT(A$rowNumber); "Y") & " tahun " & 
+            DATEDIF('Form Responses 1'!D$rowNumber; INT(A$rowNumber); "YM") & " bulan " & 
+            DATEDIF('Form Responses 1'!D$rowNumber; INT(A$rowNumber); "MD") & " hari | " & 
+            IF(DATEDIF('Form Responses 1'!D$rowNumber; INT(A$rowNumber); "m") < 12; "< 12 bulan"; 
+                IF(DATEDIF('Form Responses 1'!D$rowNumber; INT(A$rowNumber); "m") <= 24; "12 - 24 bulan"; "> 24 bulan")
             )
           )
         ''');
