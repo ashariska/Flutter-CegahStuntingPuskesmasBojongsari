@@ -33480,11 +33480,11 @@ r=A.cf("          =IF(COUNTIF(E"+s+":AF"+s+';"Data tidak ada")>0;"Data tidak ter
 break
 case"siap_olah_ak_bl":c.toString
 s=""+b
-r=A.cf("      =IF($AH"+s+'="Data tidak terpakai";""; \n        IF(OFFSET($E$2;0;COLUMN()-COLUMN($AK$1);ROWS($E$2:$E$1000);1)="Data tidak ada";\n            1;\n            (COUNTIFS(\n                OFFSET($E$2;0;COLUMN()-COLUMN($AK$1);ROWS($E$2:$E$1000);1); '+c+s+";\n                $AG$2:$AG$1000; 1\n            ) + 1) / (COUNTIF($AG$2:$AG$1000;1) + 3)\n        )\n      )\n    ")
+r=A.cf("      =IF($AH"+s+'="Data tidak terpakai";""; \n        IF(OFFSET($E$2;0;COLUMN()-COLUMN($AK$1);ROWS($E$2:$E$1000);1)="Data tidak ada";\n            1;\n            (COUNTIFS(\n                OFFSET($E$2;0;COLUMN()-COLUMN($AK$1);ROWS($E$2:$E$1000);1); '+c+s+';\n                $AG$2:$AG$1000; 1;\n                $AH$2:$AH$1000;"<>Data tidak terpakai"\n            ) + 1) / (COUNTIFS(\n                $AG$2:$AG$1000;1;\n                $AH$2:$AH$1000;"<>Data tidak terpakai"\n            ) + 3)\n        )\n      )\n    ')
 break
 case"siap_olah_bm_cn":c.toString
 s=""+b
-r=A.cf("      =IF($AH"+s+'="Data tidak terpakai";""; \n        IF(OFFSET($E$2;0;COLUMN()-COLUMN($BM$1);ROWS($E$2:$E$1000);1)="Data tidak ada";\n            1;\n            (COUNTIFS(\n                OFFSET($E$2;0;COLUMN()-COLUMN($BM$1);ROWS($E$2:$E$1000);1); '+c+s+";\n                $AG$2:$AG$1000; 0\n            ) + 1) / (COUNTIF($AG$2:$AG$1000;0) + 3)\n        )\n      )\n    ")
+r=A.cf("      =IF($AH"+s+'="Data tidak terpakai";""; \n        IF(OFFSET($E$2;0;COLUMN()-COLUMN($BM$1);ROWS($E$2:$E$1000);1)="Data tidak ada";\n            1;\n            (COUNTIFS(\n                OFFSET($E$2;0;COLUMN()-COLUMN($BM$1);ROWS($E$2:$E$1000);1); '+c+s+';\n                $AG$2:$AG$1000; 0;\n                $AH$2:$AH$1000;"<>Data tidak terpakai"\n            ) + 1) / (COUNTIFS(\n                $AG$2:$AG$1000;0;\n                $AH$2:$AH$1000;"<>Data tidak terpakai"\n            ) + 3)\n        )\n      )\n    ')
 break
 case"siap_olah_co":s=""+b
 r=A.cf(p+s+'="Data tidak terpakai";""; $AI$1 * PRODUCT(AK'+s+":BL"+s+"))\n        ")
