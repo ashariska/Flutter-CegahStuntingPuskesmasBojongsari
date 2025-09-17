@@ -126,6 +126,19 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                   DataColumn2(
                                     label: Center(
                                       child: Text(
+                                        'No',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 18,
+                                        ),
+                                      ),
+                                    ),
+                                    size: ColumnSize.S,
+                                    fixedWidth: 50
+                                  ),
+                                  DataColumn2(
+                                    label: Center(
+                                      child: Text(
                                         'Tanggal Survey',
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
@@ -135,7 +148,7 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                     ),
                                     size: ColumnSize.L,
                                   ),
-                                  DataColumn(
+                                  DataColumn2(
                                     label: Center(
                                       child: Text(
                                         'Nama',
@@ -145,8 +158,9 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                         ),
                                       ),
                                     ),
+                                    size: ColumnSize.M
                                   ),
-                                  DataColumn(
+                                  DataColumn2(
                                     label: Center(
                                       child: Text(
                                         'Jenis Kelamin',
@@ -156,8 +170,9 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                         ),
                                       ),
                                     ),
+                                    size: ColumnSize.M
                                   ),
-                                  DataColumn(
+                                  DataColumn2(
                                     label: Center(
                                       child: Text(
                                         'Usia',
@@ -167,8 +182,9 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                         ),
                                       ),
                                     ),
+                                    size: ColumnSize.L
                                   ),
-                                  DataColumn(
+                                  DataColumn2(
                                     label: Center(
                                       child: Text(
                                         'Stunting',
@@ -178,6 +194,7 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                         ),
                                       ),
                                     ),
+                                    size: ColumnSize.S
                                   ),
                                   DataColumn(
                                     label: Center(
@@ -192,9 +209,13 @@ class _LaporanWidgetState extends State<LaporanWidget> {
                                     numeric: true,
                                   ),
                                 ],
-                                rows: data.map((item) {
+                                rows: data.asMap().entries.map((entry) {
+                                  final index = entry.key + 1;
+                                  final item = entry.value;
+
                                   return DataRow(
                                     cells: [
+                                      DataCell(Text(index.toString())),
                                       DataCell(Text(item['tgl'] ?? '')),
                                       DataCell(Text(item['nama'] ?? '')),
                                       DataCell(
