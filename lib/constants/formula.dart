@@ -10,8 +10,12 @@ class Formula {
             1;
             (COUNTIFS(
                 OFFSET(\$E\$2;0;COLUMN()-COLUMN(\$AK\$1);ROWS(\$E\$2:\$E\$1000);1); $col$rowNumber;
-                \$AG\$2:\$AG\$1000; 1
-            ) + 1) / (COUNTIF(\$AG\$2:\$AG\$1000;1) + 3)
+                \$AG\$2:\$AG\$1000; 1;
+                \$AH\$2:\$AH\$1000;"<>Data tidak terpakai"
+            ) + 1) / (COUNTIFS(
+                \$AG\$2:\$AG\$1000;1;
+                \$AH\$2:\$AH\$1000;"<>Data tidak terpakai"
+            ) + 3)
         )
       )
     ''';
@@ -24,8 +28,12 @@ class Formula {
             1;
             (COUNTIFS(
                 OFFSET(\$E\$2;0;COLUMN()-COLUMN(\$BM\$1);ROWS(\$E\$2:\$E\$1000);1); $col$rowNumber;
-                \$AG\$2:\$AG\$1000; 0
-            ) + 1) / (COUNTIF(\$AG\$2:\$AG\$1000;0) + 3)
+                \$AG\$2:\$AG\$1000; 0;
+                \$AH\$2:\$AH\$1000;"<>Data tidak terpakai"
+            ) + 1) / (COUNTIFS(
+                \$AG\$2:\$AG\$1000;0;
+                \$AH\$2:\$AH\$1000;"<>Data tidak terpakai"
+            ) + 3)
         )
       )
     ''';
